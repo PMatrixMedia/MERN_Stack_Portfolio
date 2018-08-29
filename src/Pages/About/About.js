@@ -25,7 +25,7 @@ export default class About extends Component {
     return (
       <div>
         <RSnavbar className="Nav" />
-        <Jumbotron Fluid className="Jumbotron">
+        <Jumbotron fluid className="Jumbotron">
           <Container fluid className="container">
             <Media>
               <Media left href="#">

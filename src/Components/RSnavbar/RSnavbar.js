@@ -14,7 +14,6 @@ import {
   DropdownItem
 } from "reactstrap";
 
-let  Github = '/static/GitHub-Mark.png';
 
 export default class RSnavbar extends React.Component {
   constructor(props) {
@@ -41,7 +40,7 @@ export default class RSnavbar extends React.Component {
               <NavItem>
                 <NavLink href="/components/">Home</NavLink>
               </NavItem> 
-                <NavbarBrand a class="navbar-brand" href="https://github.com/PMatrixMedia"><img src={Github} alt=""></img>
+                <NavbarBrand a class="navbar-brand" href="https://github.com/PMatrixMedia"><img src="../../src/Images/GitHub-Mark.png" alt=""></img>
                 </NavbarBrand>
               <NavItem>
                 <NavLink href="https://codesandbox.io/u/PMatrixMedia">
