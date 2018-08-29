@@ -79,10 +79,10 @@ export default class Intro extends Component {
        
           <Page offset={2} gradient="tomato" caption="Who I am" first="Portfolio" second="" onClick={() => this.scroll(0)}/>
             <div className="sitebutton3">
-                    <Route path="/about" render={() => <div><About /></div>}/>
+                    <Route path="/about" render={() => <div><About /></div>}>
                     
                     <Button color="warning" size="lg" btnClick={() => this.link}>Enter</Button>
-                    
+                    </Route>
             </div>
         </Parallax>
       </Router>
