@@ -1,23 +1,16 @@
 import React, { Component } from "react";
 import RSnavbar from '../../Components/RSnavbar/RSnavbar';
-import ReactDOM from "react-dom";
+import render from "react-dom";
 import { Jumbotron, Container, Media } from "reactstrap";
 import "./style.css";
 
-const Page = ({
-  RSnavbar,
-  Jumbotron,
-  Container,
-  onClick,
-  button,
-  BtnClick
-}) => (
+const Page = ({RSnavbar, Jumbotron, Container, onClick, button,}) => (
   <div>
     <React.Fragment />
   </div>
 );
 
-export default class About extends Component {
+ class About extends Component {
   constructor(props) {
     super();
   }
@@ -46,5 +39,7 @@ export default class About extends Component {
     );
   }
 }
+
+
 
 ReactDOM.render(<About />, document.getElementById("root"));

@@ -12,14 +12,7 @@ import "./style.css";
 
 
 
-const Page = ({
-    navbar,
-    Jumbotron,
-    Container,
-    onClick,
-    button,
-    BtnClick
-  }) => (
+const Page = ({ Navbar, Jumbotron, Container, onClick }) => (
     <div>
       <React.Fragment />
     </div>
@@ -27,9 +20,7 @@ const Page = ({
   
 
 
-
-
-export default class PhaseMain extends Component {
+ export default class PhaseMain extends Component {
     constructor(props) {
       super();
     }
@@ -46,6 +37,6 @@ export default class PhaseMain extends Component {
       );
     }
   }
-  
-  ReactDOM.render(<PhaseMain />, document.getElementById("root"));
+
+
   
